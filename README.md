@@ -24,9 +24,13 @@ On client side, you need to connect to a server first, use command: connect <ip 
   
 
 Then you can input commands:
+  
   put <key> <value>: to put a kv pair in to the system
+  
   get <key>: to get a key from the system
+  
   tput: to start a transaction (then you can type many <key> <value> to put pairs in a transaction)
+  
   tput confirm: to end a transaction
   
  
