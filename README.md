@@ -8,9 +8,13 @@ run ant in the project root, ant will run build.xml file to build the whole proj
 
 To run: 
 you need to start Zookeeper with script the zookeeper-3.4.11/bin/zkServer.sh, use zkServer.sh start
+
 you need to set up ecs server first, use command: java -jar m2-ecs.jar
+
 note that this server takes 8000 by default, you should avoid using it in the future
+
 you can set up as many servers as you want, use commnad: java -jar m2-server.jar -p <port number>
+
 you can set up many clients, use command: java -jar m2-client.jar <port number>
   if you are using the same device, please avoid using duplicate ports
 
