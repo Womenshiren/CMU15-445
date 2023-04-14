@@ -13,21 +13,21 @@ you need to set up ecs server first, use command: java -jar m2-ecs.jar
 
 note that this server takes 8000 by default, you should avoid using it in the future
 
-you can set up as many servers as you want, use commnad: java -jar m2-server.jar -p <port number>
+you can set up as many servers as you want, use commnad: java -jar m2-server.jar -p {port number}
 
-you can set up many clients, use command: java -jar m2-client.jar <port number>
+you can set up many clients, use command: java -jar m2-client.jar {port number}
   if you are using the same device, please avoid using duplicate ports
 
   Servers will run and load existing database files if there are any, no more jobs needed here
  
-On client side, you need to connect to a server first, use command: connect <ip address> <port number>
+On client side, you need to connect to a server first, use command: connect {ip address} {port number}
   
 
 Then you can input commands:
   
-  put <key> <value>: to put a kv pair in to the system
+  put {key} {value}: to put a kv pair in to the system
   
-  get <key>: to get a key from the system
+  get {key}: to get a key from the system
   
   tput: to start a transaction (then you can type many <key> <value> to put pairs in a transaction)
   
