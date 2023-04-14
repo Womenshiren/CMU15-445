@@ -3,6 +3,8 @@ You need a java environment first
 
 Install ant which is a java project builder, on mac/linux run: brew install ant
 
+We used Zookeeper, log4j, junit for this project, you should install them ahead
+
 To build: 
 run ant in the project root, ant will run build.xml file to build the whole project. 
 
